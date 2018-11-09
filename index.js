@@ -1,3 +1,3 @@
-function findMatching(name) {
-  
+function findMatching(array, name) {
+  array.filter
 }
