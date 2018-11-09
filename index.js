@@ -3,3 +3,7 @@ function findMatching(drivers, string) {
   return matches
 }
 
+function fuzzyMatch(drivers, string) {
+  const matches = drivers.filter(function(driver) {return driver[0].toLowerCase() === string[0].toLowerCase()})
+  return matches
+}
