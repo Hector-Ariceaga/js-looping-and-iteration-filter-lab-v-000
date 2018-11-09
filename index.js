@@ -1,4 +1,3 @@
 function findMatching(array, name) {
-  array.filter()
-  
+  array.filter(function(name) {return name})
 }
