@@ -1,3 +1,7 @@
 function findMatching(array, name) {
-  array.filter(function(name) )
+  const matches = []
+  for (let i = 0; i < array.length; i++) {
+    
+  }
+  
 }
